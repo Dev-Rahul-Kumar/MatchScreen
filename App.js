@@ -1,15 +1,8 @@
-
-
 import React from 'react';
 
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
+  
+  StyleSheet
 } from 'react-native';
 
 import MatchScreen4 from './component/MatchScreen4';

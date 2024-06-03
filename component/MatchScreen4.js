@@ -1,10 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity, Animated } from 'react-native';
-// import { FontAwesome } from '@expo/vector-icons'; // Correct import for Expo
 
-// Import local images
-import image1 from '../assets/user1.jpg';  // Replace with the correct path to your image
-import image2 from '../assets/user2.jpg';  // Replace with the correct path to your image
+
+import image1 from '../assets/user1.jpg';  
+import image2 from '../assets/user2.jpg'; 
 
 const MatchScreen4 = () => {
   const fadeAnim1 = useRef(new Animated.Value(0)).current;
